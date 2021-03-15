@@ -1,0 +1,18 @@
+{
+  "name": "transducer-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Logan Waite",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "lodash": "^4.17.21",
+    "rxjs": "^6.6.6",
+    "transducers-js": "^0.4.174"
+  }
+}
