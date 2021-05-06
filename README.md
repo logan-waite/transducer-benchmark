@@ -1,5 +1,8 @@
 # Transducer Benchmarks
 
+_To run, clone and and run `node index.js`._
+
+
 Often when running transformations on collections, we want to chain operations together, often with methods such as `map`, `filter`, or `reduce`. In Javascript, the native array methods each return a new array, so every new transformation adds the overhead of creating a new array. For small arrays, this isn't something super noticeable, but as arrays get larger, we begin to see performance decreases.
 
 Transducers allow us to perform a set of operations on each single element of an array, instead of performing a series of separate operations on multiple arrays. For example:
